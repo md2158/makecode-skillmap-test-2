@@ -1,33 +1,19 @@
 {
-    "name": "pxt-skillmap-sample",
-    "version": "0.0.1",
-    "description": "",
+    "name": "Ramadan Game Skillmap",
+    "description": "A MakeCode Arcade skillmap for building a Ramadan-themed game with animations, collectibles, and multi-phase game flow.",
     "dependencies": {
         "device": "*"
     },
     "files": [
-        "README.md",
         "skillmap.md",
-        "tutorials/interface/activity1.md",
-        "tutorials/platformer/activity1.md",
-        "tutorials/platformer/activity2.md",
-        "tutorials/platformer/activity3.md",
-        "tutorials/platformer/activity4.md",
-        "tutorials/platformer/activity5.md",
-        "tutorials/space/activity1.md",
-        "tutorials/space/activity2.md",
-        "tutorials/space/activity3.md",
-        "tutorials/space/activity4.md",
-        "tutorials/space/activity5.md"
-    ],
-    "testFiles": [
-    ],
-    "targetVersions": {
-        "target": "1.0.16",
-        "targetId": "arcade"
-    },
-    "supportedTargets": [
-        "arcade"
+        "tutorials/01-spritekinds.md",
+        "tutorials/02-intro.md",
+        "tutorials/03-player.md",
+        "tutorials/04-directional.md",
+        "tutorials/05-sahur-scene.md",
+        "tutorials/06-food-collect.md",
+        "tutorials/07-pahala-coins.md",
+        "tutorials/08-next-button.md"
     ],
     "preferredEditor": "tsprj"
 }

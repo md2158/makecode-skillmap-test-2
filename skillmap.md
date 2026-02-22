@@ -1,123 +1,89 @@
-# sample
-* name: Game Maker Guide
-* description: Level up your game making skills by completing the tutorials in this guide.
+# ramadan-game
 
-## interface
-* name: Learn to use MakeCode Arcade
-* description: This will teach you how to complete tutorials in Microsoft MakeCode Arcade.
-* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
+* name: Ramadan Game - MakeCode Arcade Skillmap
+* description: Build a Ramadan-themed arcade game step by step! Learn to create a walking character, animated scenes, collectible items, and game flow — all inspired by the spirit of Ramadan. Perfect for intermediate game developers.
+* infoUrl: https://arcade.makecode.com
 
-### interface-activity1
+## path-setup
 
-* name: Learn to use MakeCode Arcade
+* name: Path 1 — Setting Up the Game World
+* description: Build the foundation of the game: custom sprite kinds, the intro screen, and your animated player character.
+* completionUrl: https://example.com/certificates/setup-complete.pdf
+
+### activity-spritekinds
+
+* name: Create Custom Sprite Kinds
 * type: tutorial
-* description: Intro to our tutorial cards
-* tags: easy
+* description: Learn how to extend MakeCode Arcade with your own sprite categories. We'll define the custom SpriteKind types used throughout the Ramadan game.
+* tags: sprites, setup, intermediate
+* url: github:YOUR_USERNAME/YOUR_REPO/tutorials/01-spritekinds
+* imageUrl: https://arcade.makecode.com/api/thumb/S36641-15321-53372-09817
 
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/interface/activity1 
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/interface/activity1.png
+### activity-intro
 
-## space
-* name: Design a Space Explorer
-* description: Let's explore the depths of space! We'll design a vessel for space travel, add some enemies, and populate the universe with planets.
-* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/design-a-space-explorer.pdf
-
-### space-activity1
-
-* name: Ship Design
+* name: Build the Intro Screen
 * type: tutorial
-* description: Draw and code a spaceship!
-* tags: easy
-* next: space-activity2
+* description: Create the opening scene with a "Ramadan Kareem" greeting banner, a start gate, and set the background color to get the game ready.
+* tags: sprites, scenes, decoration
+* url: github:YOUR_USERNAME/YOUR_REPO/tutorials/02-intro
+* imageUrl: https://arcade.makecode.com/api/thumb/S36641-15321-53372-09817
 
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/space/activity1
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space/activity1.png
+### activity-player
 
-### space-activity2
-
-* name: Projectiles
+* name: Animate Your Player Character
 * type: tutorial
-* description: Customize your ship with projectiles and effects.
-* tags: easy, projectiles, kinds
-* next: space-activity3
+* description: Bring your boy sprite to life with a walking animation, controller movement, and screen boundary limits. Learn how to use runImageAnimation for multi-frame sprites.
+* tags: animation, player, controller
+* url: github:YOUR_USERNAME/YOUR_REPO/tutorials/03-player
+* imageUrl: https://arcade.makecode.com/api/thumb/S36641-15321-53372-09817
 
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/space/activity2
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space/activity2.png
+### activity-directional
 
-### space-activity3
-
-* name: Enemies
-* description: Watch out for danger! Add enemies and lives to your game.
+* name: Add Directional Animations
 * type: tutorial
-* tags: easy, enemies, kinds
-* next: space-activity4
+* description: Make your character look like they're really walking by swapping animations when moving left or right using controller button events.
+* tags: animation, controller, events
+* url: github:YOUR_USERNAME/YOUR_REPO/tutorials/04-directional
+* imageUrl: https://arcade.makecode.com/api/thumb/S36641-15321-53372-09817
 
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/space/activity3
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space/activity3.png
+## path-gameplay
 
-### space-activity4
+* name: Path 2 — Game Phases & Collectibles
+* description: Implement the Sahur food-collecting phase, the Pahala coin-collecting phase, scoring, sound effects, and the Next button unlock mechanic.
+* completionUrl: https://example.com/certificates/gameplay-complete.pdf
 
-* name: Fuel Up
+### activity-sahur-scene
+
+* name: Build the Sahur Scene
 * type: tutorial
-* description: Use an extension to add a fuel gauge to your ship. Make sure to refuel often!
-* tags: intermediate, extensions
+* description: Set the Sahur background, destroy the intro sprites, and spawn trees around the scene to create an outdoor pre-dawn atmosphere.
+* tags: scenes, sprites, environment
+* url: github:YOUR_USERNAME/YOUR_REPO/tutorials/05-sahur-scene
+* imageUrl: https://arcade.makecode.com/api/thumb/S36641-15321-53372-09817
 
+### activity-food-collect
 
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/space/activity4
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space/activity4.png
-
-
-
-## platformer
-* name: Learn to Make a Platformer
-* description: A skillmap that takes you through how to build a platformer with multiple levels.
-* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/learn-to-make-a-platformer.pdf
-
-### platformer-activity1
-
-* name: Simple Platformer
+* name: Spawn & Collect Sahur Foods
 * type: tutorial
-* description: Learn how to make a player character that can jump and move around a tilemap.
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity1
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity1.png
-* tags: easy
-* next: platformer-activity2
+* description: Randomly spawn Sahur food sprites across the screen and handle overlap events to collect them, update the score, and play a sound effect.
+* tags: collectibles, overlap, score, sound
+* url: github:YOUR_USERNAME/YOUR_REPO/tutorials/06-food-collect
+* imageUrl: https://arcade.makecode.com/api/thumb/S36641-15321-53372-09817
 
-### platformer-activity2
+### activity-pahala-coins
 
-* name: Camera and Tiles
+* name: Spawn Pahala Coins
 * type: tutorial
-* description: Learn how to use the camera and add tile overlap events to give the player a way to win and lose.
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity2
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity2.png
-* tags: easy, tiles
-* next: platformer-activity3
+* description: After Sahur is done, spawn 10 collectible Pahala (reward) coins at random positions with a delay between each spawn. Learn about loops and pause() timing.
+* tags: coins, loop, collectibles, timing
+* url: github:YOUR_USERNAME/YOUR_REPO/tutorials/07-pahala-coins
+* imageUrl: https://arcade.makecode.com/api/thumb/S36641-15321-53372-09817
 
-### platformer-activity3
+### activity-next-button
 
-* name: Simple Enemies
+* name: Unlock the Next Button & Game Flow
 * type: tutorial
-* description: Learn how to add enemies to your game that follow the player.
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity3
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity3.png
-* tags: intermediate, overlaps
-* next: platformer-activity4
-
-### platformer-activity4
-
-* name: Multiple Levels
-* type: tutorial
-* description: Add a second level to your platformer using functions.
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity4
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity4.png
-* tags: intermediate, functions
-* next: platformer-activity5
-
-### platformer-activity5
-
-* name: Enemy AI
-* type: tutorial
-* description: Add physics and AI to the enemies in your game.
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/platformer/activity5
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/platformer/activity5.png
-* tags: intermediate, AI, physics
+* description: Trigger an animated Next button when the player reaches the score target. Wire up overlap events to chain game phases together and complete the full game loop.
+* tags: animation, score, game-flow, events
+* url: github:YOUR_USERNAME/YOUR_REPO/tutorials/08-next-button
+* imageUrl: https://arcade.makecode.com/api/thumb/S36641-15321-53372-09817
