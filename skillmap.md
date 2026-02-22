@@ -10,13 +10,13 @@
 - tertiarycolor: #FFECFC
 - highlightcolor: #FAED28
 
-## path-setup
+## pathsetup
 
 - name: Path 1 - Setting Up the Game World
 - description: Build the game foundation with sprite kinds, the intro screen, and your animated player character.
 - completionUrl: https://github.com/md2158/makecode-skillmap
 
-### activity-spritekinds
+### pathsetup-activity1
 
 - name: Custom Sprite Kinds
 - type: tutorial
@@ -25,7 +25,7 @@
 - url: github:md2158/makecode-skillmap/01-spritekinds
 - imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space.png
 
-### activity-intro
+### pathsetup-activity2
 
 - name: Build the Intro Screen
 - type: tutorial
@@ -34,7 +34,7 @@
 - url: github:md2158/makecode-skillmap/02-intro
 - imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space.png
 
-### activity-player
+### pathsetup-activity3
 
 - name: Animate the Player
 - type: tutorial
@@ -43,13 +43,13 @@
 - url: github:md2158/makecode-skillmap/03-player
 - imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space.png
 
-## path-gameplay
+## pathgameplay
 
 - name: Path 2 - Game Phases and Collectibles
 - description: Build the Sahur food phase, Pahala coins, and complete the full game loop.
 - completionUrl: https://github.com/md2158/makecode-skillmap
 
-### activity-sahur
+### pathgameplay-activity1
 
 - name: Build the Sahur Scene
 - type: tutorial
@@ -58,7 +58,7 @@
 - url: github:md2158/makecode-skillmap/04-sahur
 - imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space.png
 
-### activity-food
+### pathgameplay-activity2
 
 - name: Collect Sahur Foods
 - type: tutorial
@@ -67,7 +67,7 @@
 - url: github:md2158/makecode-skillmap/05-food
 - imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/space.png
 
-### activity-finish
+### pathgameplay-activity3
 
 - name: Pahala Coins and Game Flow
 - type: tutorial
