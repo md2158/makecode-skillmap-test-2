@@ -7,7 +7,7 @@
 - bannerurl: https://raw.githubusercontent.com/md2158/makecode-skillmap/main/img/banner.png
 - primarycolor: #2EA9B0
 - secondarycolor: #F9A825
-- tertiarycolor: #1B5E20
+- tertiarycolor: #FFECFC
 - highlightcolor: #FAED28
 
 ## path-setup
